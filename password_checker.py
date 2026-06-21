@@ -1,7 +1,7 @@
 import string
 
 #The scoring system for password strength
-def check_password(password, common_list):
+def check_password(password):
     """Evaluate a password and return (score, feedback_list)."""
     score = 0
     feedback = []
@@ -31,11 +31,6 @@ def check_password(password, common_list):
     else:
         feedback.append("Add at least one special character (e.g., !, @, #).")
 
-    # Common password check (overrides all other scoring)
-    if password.lower() in common_list:
-        score = 0
-        feedback = ["This password is in the common-passwords list. Choose another."]
-
     return score, feedback
 
 def main(): # Main function to run the password checker
@@ -57,7 +52,7 @@ def main(): # Main function to run the password checker
             print("Password cannot be empty. Try again.")
             continue
 
-        score, feedback = check_password(password, common_list)
+        score, feedback = check_password(password)
         label = strength_labels.get(score, "Unknown")
 
         print(f"\nStrength: {label} ({score}/5)")
