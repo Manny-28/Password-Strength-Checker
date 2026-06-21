@@ -14,10 +14,33 @@ Contains digits
 Contains uppercase letters
 
 
+
+
+
+
+
+
+
 ##**Here we see the program running:**
 ##**#Strong Password**
 
 <img width="460" height="193" alt="image" src="https://github.com/user-attachments/assets/f96160e1-bbf5-49da-ab47-4fe99b8c0180" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -26,8 +49,34 @@ Contains uppercase letters
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##**#password_log.txt**
 <img width="881" height="261" alt="image" src="https://github.com/user-attachments/assets/98581f34-a6e0-47b1-9cd9-bf88c6c8a88b" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
